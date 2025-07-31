@@ -3,11 +3,13 @@
   margin: 0 auto;
 }
 .user-image-size {
-  height: 56px;
-  margin: 4px 0;
+  size: 5px;
+  height: 12px;
+  width: 12px;
+  margin: 2px 0;
 }
 .main-body {
-  background-color: #f28487;
+  background-color: #c4f284;
   color: white;
   height: calc(100vh - 64px);
 }
