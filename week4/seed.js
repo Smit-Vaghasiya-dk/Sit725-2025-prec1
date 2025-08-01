@@ -36,3 +36,15 @@ Project.insertMany(sampleData)
   })
   .catch((err) => console.error(err));
 
+// To run this script, use the command: node week4/seed.js
+// Ensure MongoDB is running and the database 'myprojectDB' is created.
+// This script will populate the database with sample project data.
+// Adjust the sampleData array as needed for different projects.
+const sampleProject = new Project({
+  title: "Kitten 3",
+  image: "images/kitten-3.jpg",
+  link: "About Kitten 3",
+  description: "Demo description about kitten 3",
+});
+sampleProject.save().then(() => console.log("Sample projectsaved!"));
+
